@@ -28,4 +28,13 @@ pub fn about_strings() {
     // String concat that's better than +
     let z = format!("{} {} {}", t, u, v);
     println!("{}", z);
+
+    // Iterating on String
+    for c in "नमस्ते".chars() {
+        println!("{}", c);
+    }
+
+    for b in "नमस्ते".bytes() {
+        println!("{}", b);
+    }
 }
